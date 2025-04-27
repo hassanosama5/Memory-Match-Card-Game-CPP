@@ -1,0 +1,136 @@
+# depslib dependency file v1.0
+1731856316 source:c:\users\20101\onedrive\desktop\milestone1\main.cpp
+	<iostream>
+	"Card.h"
+	"Game.h"
+	"Deck.h"
+
+1731775466 source:c:\users\20101\onedrive\desktop\milestone1\src\card.cpp
+
+1732363157 c:\users\20101\onedrive\desktop\milestone1\include\card.h
+
+1731775591 source:c:\users\20101\onedrive\desktop\milestone1\src\bonuscard.cpp
+
+1732278586 c:\users\20101\onedrive\desktop\milestone1\include\bonuscard.h
+	"Card.h"
+
+1731775630 source:c:\users\20101\onedrive\desktop\milestone1\src\penaltycard.cpp
+
+1732278590 c:\users\20101\onedrive\desktop\milestone1\include\penaltycard.h
+	"Card.h"
+
+1731775545 source:c:\users\20101\onedrive\desktop\milestone1\src\standardcard.cpp
+
+1731606434 c:\users\20101\onedrive\desktop\milestone1\include\standardcard.h
+	"Card.h"
+
+1731777373 source:c:\users\20101\onedrive\desktop\milestone1\src\deck.cpp
+
+1732374992 c:\users\20101\onedrive\desktop\milestone1\include\deck.h
+	"Card.h"
+	"StandardCard.h"
+	"BonusCard.h"
+	"PenaltyCard.h"
+
+1731775754 source:c:\users\20101\onedrive\desktop\milestone1\src\player.cpp
+
+1731668656 c:\users\20101\onedrive\desktop\milestone1\include\player.h
+
+1731775816 source:c:\users\20101\onedrive\desktop\milestone1\src\game.cpp
+
+1732374516 c:\users\20101\onedrive\desktop\milestone1\include\game.h
+	"Deck.h"
+	"Card.h"
+
+1732374958 source:c:\users\20101\onedrive\desktop\milestone1\ms1.cpp
+	<iostream>
+	<algorithm>
+	<random>
+	"Card.h"
+	"StandardCard.h"
+	"BonusCard.h"
+	"PenaltyCard.h"
+	"Deck.h"
+	"Player.h"
+	"Game.h"
+
+1733924671 source:c:\users\20101\onedrive\desktop\giu\year 2\milestone1\ms1.cpp
+	<iostream>
+	<algorithm>
+	<random>
+	<typeinfo>
+	<ctime>
+	<windows.h>
+	"Card.h"
+	"StandardCard.h"
+	"BonusCard.h"
+	"PenaltyCard.h"
+	"Deck.h"
+	"Player.h"
+	"Game.h"
+
+1733872342 c:\users\20101\onedrive\desktop\giu\year 2\milestone1\include\card.h
+
+1733872417 c:\users\20101\onedrive\desktop\giu\year 2\milestone1\include\standardcard.h
+	"Card.h"
+
+1733844271 c:\users\20101\onedrive\desktop\giu\year 2\milestone1\include\bonuscard.h
+	"Card.h"
+
+1733844276 c:\users\20101\onedrive\desktop\giu\year 2\milestone1\include\penaltycard.h
+	"Card.h"
+
+1733841990 c:\users\20101\onedrive\desktop\giu\year 2\milestone1\include\deck.h
+	"Card.h"
+	"StandardCard.h"
+	"BonusCard.h"
+	"PenaltyCard.h"
+
+1733922562 c:\users\20101\onedrive\desktop\giu\year 2\milestone1\include\player.h
+	"Game.h"
+
+1733921301 c:\users\20101\onedrive\desktop\giu\year 2\milestone1\include\game.h
+	"Deck.h"
+	"Card.h"
+	"Player.h"
+
+1734275832 source:c:\users\20101\onedrive\desktop\giu\year 2\programming 3\milestone1\ms1.cpp
+	<iostream>
+	<algorithm>
+	<random>
+	<typeinfo>
+	<ctime>
+	<windows.h>
+	"Card.h"
+	"StandardCard.h"
+	"BonusCard.h"
+	"PenaltyCard.h"
+	"Deck.h"
+	"Player.h"
+	"Game.h"
+
+1733872342 c:\users\20101\onedrive\desktop\giu\year 2\programming 3\milestone1\include\card.h
+
+1733872417 c:\users\20101\onedrive\desktop\giu\year 2\programming 3\milestone1\include\standardcard.h
+	"Card.h"
+
+1733844271 c:\users\20101\onedrive\desktop\giu\year 2\programming 3\milestone1\include\bonuscard.h
+	"Card.h"
+
+1733844276 c:\users\20101\onedrive\desktop\giu\year 2\programming 3\milestone1\include\penaltycard.h
+	"Card.h"
+
+1733841990 c:\users\20101\onedrive\desktop\giu\year 2\programming 3\milestone1\include\deck.h
+	"Card.h"
+	"StandardCard.h"
+	"BonusCard.h"
+	"PenaltyCard.h"
+
+1733922562 c:\users\20101\onedrive\desktop\giu\year 2\programming 3\milestone1\include\player.h
+	"Game.h"
+
+1734275848 c:\users\20101\onedrive\desktop\giu\year 2\programming 3\milestone1\include\game.h
+	"Deck.h"
+	"Card.h"
+	"Player.h"
+

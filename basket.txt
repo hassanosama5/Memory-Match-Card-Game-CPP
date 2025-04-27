@@ -1,0 +1,39 @@
+
+Deck::Deck() //constructing starting deck
+{
+    cardGrid = new Card*[4];
+    for(int i=0; i<4 ;i++){
+        cardGrid[i] = new Card[4];
+    }
+
+    int num = 0;
+    for(int i=0; i<3 ;i++){
+        for(int j=0; j<4 ;j++){
+            cardGrid[i][j] = new StandardCard(false,(num++%6)+1);  //created 6 pairs of standard cards 1-6
+        }
+    }
+
+    for(int z=0; z<2;z++){
+        cardGrid[3][z] = new BonusCard(false,1);        //created 2 pairs of Bonus cards
+    }
+
+    for(int x=2; x<4;x++){
+        cardGrid[3][x] = new PenaltyCard(false,-1);     //created 2 pairs of Penalty cards
+    }
+
+    shuffle();
+
+}
+
+Deck::~Deck()
+{
+    for (int i = 0; i < 4; i++) {
+        for (int j = 0; j < 4; j++) {
+            if (cardGrid[i][j] != nullptr) { //check if already null
+            delete cardGrid[i][j];
+            cardGrid[i][j] = nullptr; //avoid dangling bardo
+            }
+        }
+    }
+
+}
